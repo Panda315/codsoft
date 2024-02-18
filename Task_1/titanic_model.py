@@ -6,6 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Loading the titanic dataset
+# Dataset is available at https://www.kaggle.com/datasets/yasserh/titanic-dataset
 titanic_data = pd.read_csv('/Users/panda/Documents/codsoft/codsoft/Task_1/Titanic-Dataset.csv')
 
 
